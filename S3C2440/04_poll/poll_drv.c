@@ -25,6 +25,7 @@ volatile unsigned long *gpgdat;
 static DECLARE_WAIT_QUEUE_HEAD(irq_waitq);
 static volatile int ev_press = 0;
 
+
 struct pin_desc{
     unsigned int pin;
     unsigned int key_val;
